@@ -79,7 +79,6 @@ const Contacts = () => {
           },
           "& .MuiDataGrid-columnHeaders": {
             backgroundColor: colors.blueAccent[700],
-            borderBottom: "none",
           },
           "& .MuiDataGrid-virtualScroller": {
             backgroundColor: colors.primary[400],
@@ -88,9 +87,9 @@ const Contacts = () => {
             borderTop: "none",
             backgroundColor: colors.blueAccent[700],
           },
-          "& .MuiButton-text":{
-            color: colors.grey[100]
-          }
+          "& .MuiButton-text": {
+            color: colors.grey[100],
+          },
         }}
       >
         <DataGrid

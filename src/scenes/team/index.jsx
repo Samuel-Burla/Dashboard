@@ -69,6 +69,7 @@ const Team = () => {
       },
     },
   ];
+  
 
   return (
     <Box m="20px">

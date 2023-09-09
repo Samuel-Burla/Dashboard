@@ -144,7 +144,7 @@ const Dashboard = () => {
               alignItems="center"
               p="10px"
             >
-              <Box>
+              <Box width="80px">
                 <Typography variant="h6" color={colors.greenAccent[500]}>
                   {transaction.txId}
                 </Typography>
@@ -152,11 +152,12 @@ const Dashboard = () => {
                   {transaction.user}
                 </Typography>
               </Box>
-              <Typography>{transaction.date}</Typography>
+              <Box>{transaction.date}</Box>
               <Box
                 backgroundColor={colors.greenAccent[500]}
                 borderRadius="5px"
                 p="5px 10px"
+                width="80px"
               >
                 $ {transaction.cost}
               </Box>

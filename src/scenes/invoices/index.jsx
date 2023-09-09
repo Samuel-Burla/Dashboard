@@ -50,8 +50,8 @@ const Invoices = () => {
   return (
     <Box m="20px">
       <Header
-        title="CONTACTS"
-        subtitle="List of Contacts for Future Reference"
+        title="Invoices"
+        subtitle="List of Invoices"
       />
       <Box
         height="70vh"
